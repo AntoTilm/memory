@@ -33,7 +33,7 @@ Vous avez la possibilité de personnaliser le jeu en ajustant les paramètres su
 Comment exécuter le jeu localement
 
     Clonez ce dépôt GitHub sur votre machine.
-    Ouvrez le fichier game.html dans votre navigateur pour jouer au jeu.
     Explorez le fichier index.html pour accéder à la page d'accueil du jeu.
+    Ouvrez le fichier game.html dans votre navigateur pour jouer au jeu.
 
 Amusez-vous bien et essayez d'obtenir le meilleur score !
