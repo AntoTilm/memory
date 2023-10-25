@@ -189,11 +189,11 @@ function clicCounter(clicNumber) {
   document.querySelector('#clic').innerHTML = 'Coups: ' + clicNumber + '/' +  maxClicNumber
 }
 function parameters() {
-  cardColumnCount = document.getElementById('colonnes').value
-  cardRowCount = document.getElementById('lignes').value
+  cardColumnCount = parseInt(document.getElementById('colonnes').value);
+  cardRowCount = parseInt(document.getElementById('lignes').value);
   decksize = cardColumnCount*cardRowCount
-  cardHeight = document.getElementById('hCarte').value
-  cardWidth = document.getElementById('lCarte').value
+  cardHeight = parseInt(document.getElementById('hCarte').value);
+  cardWidth = parseInt(document.getElementById('lCarte').value);
   deck = []
   
   for (let index = 0; index < decksize; index += 2) {
